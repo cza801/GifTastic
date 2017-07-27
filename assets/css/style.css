@@ -1,0 +1,18 @@
+.header {
+	background-color: #473D55;
+	border: 1px solid black;
+}
+h1 {
+	color: #FE3732;
+}
+body {
+	
+	background-image: url(../images/tbiggums.jpg);
+	background-size: cover;
+}
+.buttonsBox {
+	margin-top: 15px;
+}
+.buttonBG {
+	background-color: #473D55;
+}
