@@ -1,6 +1,7 @@
 .header {
 	background-color: #473D55;
-	border: 1px solid black;
+	border: 1px solid white;
+	opacity: .8;
 }
 h1 {
 	color: #FE3732;
@@ -8,11 +9,26 @@ h1 {
 body {
 	
 	background-image: url(../images/tbiggums.jpg);
-	background-size: cover;
+	background-size: contain;
+	font-family: 'Gloria Hallelujah', cursive;
+	font-family: 'Amatic SC', cursive;
 }
 .buttonsBox {
 	margin-top: 15px;
 }
 .buttonBG {
 	background-color: #473D55;
+	opacity: .9;
+}
+.floater {
+	float: left;
+	margin-right: 15px;
+}
+.topic {
+	margin-right: 5px;
+	margin-top: 5px;
+}
+p {
+	float: left;
+	color: white;
 }
