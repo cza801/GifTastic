@@ -41,7 +41,7 @@ var topics = ['lakes', 'mountains', 'beaches', 'one piece', 'berserk', 'full met
 $("#buttons-go-here").on("click", "button", function() {
 
 	var searchedTerm = $(this).attr("data-search")
-	var queryUrl ="http://api.giphy.com/v1/gifs/search?q=" +
+	var queryUrl ="https://api.giphy.com/v1/gifs/search?q=" +
 	        searchedTerm + "&api_key=dc6zaTOxFJmzC&limit=10";
 
 
